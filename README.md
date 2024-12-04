@@ -39,7 +39,7 @@ The negative direction of the data aligned with the suspected cause, where as co
 ### Conculsion
 All in all, from our findings, we can reasonably conclude that the country with the lowest price was Thailand with about 5.10 CAD per tall latte, and watch out for Switzerland, where one tall latte would be about 10 CAD, making it the most expensive.
 
-Note: This is based off of our selected dataset, not based off of the entire scraped table, nor is it based off of all existing Starbucks stores. Furthermore, for future usage, if a company were to use our work to apply to their business, the manual calculations would have to be reperformed which is inefficient when compared to calculations done by implementing dataset scraped from a website; however, it could be more accurate, depending on when the scraped dataset was updated in conversion rates. 
+**Note:** This is based off of our selected dataset, not based off of the entire scraped table, nor is it based off of all existing Starbucks stores. Furthermore, for future usage, if a company were to use our work to apply to their business, the manual calculations would have to be reperformed which is inefficient when compared to calculations done by implementing dataset scraped from a website; however, it could be more accurate, depending on when the scraped dataset was updated in conversion rates. 
 
 
 ## Citations
