@@ -1,7 +1,7 @@
 # Starbucks Tall Latte Index
 
 ## So what is Purchasing Power Parity (PPP)?
-In economics, there exists a theory that determines exchange rates called purchasing power parity (PPP), which states that the price levels between two countries should be equal. This theory states that goods in each country should cost the same once the currencies have been exchanged.
+In economics, there exists a theory that determines exchange rates called purchasing power parity (PPP), which states that the price levels between two countries should be equal. This theory states that goods in each country should cost the same once the currencies have been exchanged.[^1]
 
 ### Why Starbucks?
 Our motivation for selecting Starbucks tall lattes to analyze for this project, was mainly the popularity of Starbucks as a brand itself. Starbucks is recognized worldwide with varying stores and drinks in different countries, therefore, we decided to see the variations in price that emerged from international Starbucks stores, even identifying which countries are most and least economic (within our sampled data). 
@@ -16,7 +16,7 @@ When scraping our data, the first thing we did was to begin by selecting and pas
 Before beginning to modify the actual numbers and quantities in the table, we removed some miscellaneous parts such as the 3rd column which was not related to the Starbucks Tall Latte, as well as the “$” symbol which would interfere with future calculations. 
 
 ### Adjust table
-After getting the desired output, we selected our data size of 39 countries with varying prices, including Canada. We then got a table of worldwide currency symbols and codes from [Fyorin](https://fyorin.com/blog/world-currency-map) to join with our existing table of latte prices, matching the countries to their respective currencies. Additionally, local tax rates were also an added part to the table. The data chosen for this task was each country’s sales tax rates [insert citation] that we collected online, then later compiled into a csv file. Since the original table with all the Starbucks prices was in USD, conversion was done to ensure our dataset at the end would be in CAD. This was achieved by applying a formula we created to the table, where prices (in USD) were multiplied by 1.40 (since 1 USD = 1.40 CAD by the time of conversion). 
+After getting the desired output, we selected our data size of 39 countries with varying prices, including Canada. We then got a table of worldwide currency symbols and codes from [Fyorin](https://fyorin.com/blog/world-currency-map) to join with our existing table of latte prices, matching the countries to their respective currencies. Additionally, local tax rates were also an added part to the table. The data chosen for this task was each country’s sales tax rates [^2] that we collected online, then later compiled into a csv file. Since the original table with all the Starbucks prices was in USD, conversion was done to ensure our dataset at the end would be in CAD. This was achieved by applying a formula we created to the table, where prices (in USD) were multiplied by 1.40 (since 1 USD = 1.40 CAD by the time of conversion). 
 
 ### Adjust prices and currencies
 With the local sales tax rates (in percentage) taken as mentioned above, we attempted to calculate the local prices for Starbucks’ tall lattes in other countries using this data and applied a defined conversion function to the table to accomplish this. We had also manually calculated the local prices for each respective countries’ lattes and after some considerations, we decided to continue further calculations with our manually calculated data instead of the ones calculated using the defined function with the CurrencyScoop API as we thought it might be outdated compared to the data we got from manual input at the time of conversion. 
@@ -47,4 +47,9 @@ This is based off of our selected dataset, not based off of the entire scraped t
 
 
 ## Citations
-
+[^1]:https://www.ig.com/en/trading-strategies/what-is-purchasing-power-parity--ppp---191106#:~:text=Purchasing%20power%20parity%20(PPP)%20is,the%20currencies%20have%20been%20exchanged.
+[^2]: https://tradingeconomics.com/country-list/sales-tax-rate
+  https://www.familyofficehk.gov.hk/en/why-hong-kong/simple-and-low-tax-system/index.html#:~:text=Hong%20Kong's%20tax%20rate%20is,dividends%20or%20interest%20from%20savings.
+  https://www.avalara.com/taxrates/en/state-rates/puerto-rico.html#:~:text=Puerto%20Rico%20sales%20tax%20overview,of%20the%20Spanish%20American%20War.
+  https://quickbooks.intuit.com/global/tax-tables/kuwait/#:~:text=Despite%20signing%20the%20Unified%20VAT,%2DAdded%20Tax%20(VAT).
+  https://taxsummaries.pwc.com/qatar/corporate/other-taxes#:~:text=Currently%2C%20Qatar%20imposes%20no%20VAT,anticipated%20tax%20rate%20is%205%25.
