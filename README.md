@@ -10,7 +10,7 @@ Our motivation for selecting Starbucks tall lattes to analyze for this project, 
 This is a break-down of the procedures and steps we took throughout our analysis of data for this project. 
 
 ### Scraping the necessary data 
-When scraping our data, the first thing we did was to begin by selecting and pasting the [URL](Starbucks: https://switchonbusiness.com/price-of-starbucks-latte-by-country/) into our notebook. Subsequently we inspected the website to locate the table needed . Finally, we defined a function: scrape, to then run through the data and extract it into a table we could actually utilize.
+When scraping our data, the first thing we did was to begin by selecting and pasting the [URL](https://switchonbusiness.com/price-of-starbucks-latte-by-country/) into our notebook. Subsequently we inspected the website to locate the table needed . Finally, we defined a function: scrape, to then run through the data and extract it into a table we could actually utilize.
 
 ### Cleaning the scraped data 
 Before beginning to modify the actual numbers and quantities in the table, we removed some miscellaneous parts such as the 3rd column which was not related to the Starbucks Tall Latte, as well as the “$” symbol which would interfere with future calculations. 
