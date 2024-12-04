@@ -49,7 +49,11 @@ This is based off of our selected dataset, not based off of the entire scraped t
 ## Citations
 [^1]:https://www.ig.com/en/trading-strategies/what-is-purchasing-power-parity--ppp---191106#:~:text=Purchasing%20power%20parity%20(PPP)%20is,the%20currencies%20have%20been%20exchanged.
 [^2]: https://tradingeconomics.com/country-list/sales-tax-rate
+
   https://www.familyofficehk.gov.hk/en/why-hong-kong/simple-and-low-tax-system/index.html#:~:text=Hong%20Kong's%20tax%20rate%20is,dividends%20or%20interest%20from%20savings.
+  
   https://www.avalara.com/taxrates/en/state-rates/puerto-rico.html#:~:text=Puerto%20Rico%20sales%20tax%20overview,of%20the%20Spanish%20American%20War.
+  
   https://quickbooks.intuit.com/global/tax-tables/kuwait/#:~:text=Despite%20signing%20the%20Unified%20VAT,%2DAdded%20Tax%20(VAT).
+  
   https://taxsummaries.pwc.com/qatar/corporate/other-taxes#:~:text=Currently%2C%20Qatar%20imposes%20no%20VAT,anticipated%20tax%20rate%20is%205%25.
