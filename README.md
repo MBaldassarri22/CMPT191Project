@@ -10,13 +10,13 @@ Our motivation for selecting Starbucks tall lattes to analyze for this project, 
 This is a break-down of the procedures and steps we took throughout our analysis of data for this project. 
 
 ### Scraping the necessary data 
-When scraping our data, the first thing we did was to begin by selecting and pasting the URL into our notebook. Subsequently we inspected the website to locate the table needed . Finally, we defined a function: scrape, to then run through the data and extract it into a table we could actually utilize.
+When scraping our data, the first thing we did was to begin by selecting and pasting the [URL](Starbucks: https://switchonbusiness.com/price-of-starbucks-latte-by-country/) into our notebook. Subsequently we inspected the website to locate the table needed . Finally, we defined a function: scrape, to then run through the data and extract it into a table we could actually utilize.
 
 ### Cleaning the scraped data 
 Before beginning to modify the actual numbers and quantities in the table, we removed some miscellaneous parts such as the 3rd column which was not related to the Starbucks Tall Latte, as well as the “$” symbol which would interfere with future calculations. 
 
 ### Adjust table
-After getting the desired output, we selected our data size of 39 countries with varying prices, including Canada. We then got a table of worldwide currency symbols and codes from Fyorin [insert URL] to join with our existing table of latte prices, matching the countries to their respective currencies. Additionally, local tax rates were also an added part to the table. The data chosen for this task was each country’s sales tax rates [insert citation] that we collected online, then later compiled into a csv file. Since the original table with all the Starbucks prices was in USD, conversion was done to ensure our dataset at the end would be in CAD. This was achieved by applying a formula we created to the table, where prices (in USD) were multiplied by 1.40 (since 1 USD = 1.40 CAD by the time of conversion). 
+After getting the desired output, we selected our data size of 39 countries with varying prices, including Canada. We then got a table of worldwide currency symbols and codes from [Fyorin] (https://fyorin.com/blog/world-currency-map) to join with our existing table of latte prices, matching the countries to their respective currencies. Additionally, local tax rates were also an added part to the table. The data chosen for this task was each country’s sales tax rates [insert citation] that we collected online, then later compiled into a csv file. Since the original table with all the Starbucks prices was in USD, conversion was done to ensure our dataset at the end would be in CAD. This was achieved by applying a formula we created to the table, where prices (in USD) were multiplied by 1.40 (since 1 USD = 1.40 CAD by the time of conversion). 
 
 ### Adjust prices and currencies
 With the local sales tax rates (in percentage) taken as mentioned above, we attempted to calculate the local prices for Starbucks’ tall lattes in other countries using this data and applied a defined conversion function to the table to accomplish this. We had also manually calculated the local prices for each respective countries’ lattes and after some considerations, we decided to continue further calculations with our manually calculated data instead of the ones calculated using the defined function with the CurrencyScoop API as we thought it might be outdated compared to the data we got from manual input at the time of conversion. 
@@ -42,7 +42,9 @@ The negative direction of the data aligned with the suspected cause, where as co
 ### Conculsion
 All in all, from our findings, we can reasonably conclude that the country with the lowest price was Thailand with about 5.10 CAD per tall latte, and watch out for Switzerland, where one tall latte would be about 10 CAD, making it the most expensive.
 
-**Note:** This is based off of our selected dataset, not based off of the entire scraped table, nor is it based off of all existing Starbucks stores. Furthermore, for future usage, if a company were to use our work to apply to their business, the manual calculations would have to be reperformed which is inefficient when compared to calculations done by implementing dataset scraped from a website; however, it could be more accurate, depending on when the scraped dataset was updated in conversion rates. 
+[!NOTE] 
+This is based off of our selected dataset, not based off of the entire scraped table, nor is it based off of all existing Starbucks stores. Furthermore, for future usage, if a company were to use our work to apply to their business, the manual calculations would have to be reperformed which is inefficient when compared to calculations done by implementing dataset scraped from a website; however, it could be more accurate, depending on when the scraped dataset was updated in conversion rates. 
 
 
 ## Citations
+
