@@ -24,13 +24,16 @@ With the local sales tax rates (in percentage) taken as mentioned above, we atte
 
 ### Visualizing differences in pricing 
 Based on the output we got from previous steps, we subtracted the Canadian price of Starbucks tall latte from each country’s price of the drink to get a new column in our table of the pricing differences. To visualize these differences, we used the barh function to graph a bar chart, which is displayed below:
-[insert graph img]
+
+![download](https://github.com/user-attachments/assets/00315acc-649a-489c-97fb-a507846d8401)
+
 
 ### Potential external factor for the pricing differences
 After having performed the previous calculations for our data above, we looked for an external factor that could justify the findings of the price differences. The external factor we decided to examine was the population consumption of coffee for some of the countries in our data set, as countries with higher consumption could result in lower prices per coffee. 
 
 To do this we began by finding another dataset containing fairly recent coffee consumption rates (from 2020-2021), and repeated the scraping processes above for this new dataset. A joined table was then created, connecting the price differences and the coffee consumptions, which we then created a scatter plot for in order to demonstrate a potential relationship between the two. The aforementioned scatter plot is displayed below: 
-![download](https://github.com/user-attachments/assets/00315acc-649a-489c-97fb-a507846d8401)
+
+![download](https://github.com/user-attachments/assets/d60a9b74-ae15-49e6-9a1e-8ada73d41cd7)
 
 To further fortify our conclusion we actually defined two other functions: one to convert the data to standard units, and the other to calculate the correlation coefficient. From our calculation, the result value was about -0.21. 
 
