@@ -1,5 +1,5 @@
 # Starbucks Tall Latte Index
-![alt text](https://drive.google.com/file/d/17ZNadYScnKT6c27xPqiFJk1_n80o9RCe/view)
+![updated-banner](https://github.com/user-attachments/assets/e489241a-809f-41a1-9e92-c361db2d6ed0)
 
 ## So what is Purchasing Power Parity (PPP)?
 In economics, there exists a theory that determines exchange rates called purchasing power parity (PPP), which states that the price levels between two countries should be equal. This theory states that goods in each country should cost the same once the currencies have been exchanged.[^1]
