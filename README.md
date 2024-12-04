@@ -1,4 +1,4 @@
-# CMPT191Project
+# Starbucks Tall Latte Index
 
 ## So what is Purchasing Power Parity (PPP)?
 In economics, there exists a theory that determines exchange rates called purchasing power parity (PPP), which states that the price levels between two countries should be equal. This theory states that goods in each country should cost the same once the currencies have been exchanged.
